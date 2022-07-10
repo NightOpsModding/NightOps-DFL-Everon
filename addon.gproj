@@ -1,0 +1,20 @@
+GameProject {
+ ID "NightOps-DFL-Everon"
+ GUID "59D4CB5834A0A3F2"
+ TITLE "NightOps-DFL-Everon"
+ Dependencies {
+  "598B131A58C0F13F" "59A68DB84CCFFE72" "59872DC34F427384" "598ABCE21D6DE27D" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

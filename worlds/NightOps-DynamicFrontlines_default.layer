@@ -1,0 +1,50 @@
+SCR_BaseGameMode NO_CoopSetup1 : "{AAD8DA66980A1D77}Prefabs/MP/NO_CoopSetup.et" {
+ coords 4714.712 83.786 8594.436
+ {
+  SCR_FactionManager {
+   ID "598B45657FF3C04C"
+   Factions {
+    SCR_CampaignFaction "{5966E56E6680A49C}" {
+     m_bIsPlayable 0
+    }
+    SCR_CampaignFaction "{5966E56E67344613}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "598B45657FF3F701"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{596EB2A326D1EE2D}" {
+     m_sLoadoutName "Coop Loadout (USSR)"
+     m_sLoadoutResource "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+   }
+  }
+  NO_SCR_SpawnManager : "{BC4EF3F0E9688AE2}Prefabs/NO_DSF/MP/Managers/SpawnManager.et" {
+   coords 0 0 0
+   m_rFactionPrefabs {
+    FactionReferences "{599EF0F321AB8FBB}" {
+     CustomEnvironment9 "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et"
+     CustomEnvironment10 "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et"
+    }
+    FactionReferences "{599EF0F322A1645A}" {
+     CustomEnvironment9 "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et"
+     CustomEnvironment10 "{4D69F9D77C372BE5}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01_M60.et"
+    }
+    FactionReferences "{599EF0F322CC7AD7}" {
+     CustomEnvironment9 "{4D69F9D77C372BE5}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01_M60.et"
+     CustomEnvironment10 "{9D720679B696FEE1}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01_M2HB.et"
+    }
+   }
+   m_factionToSpawnWhenDynamicFaction "USSR"
+  }
+ }
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 4226.168 6.592 12209.456
+ angleY 154.997
+ m_fSpawnRadius 5
+}

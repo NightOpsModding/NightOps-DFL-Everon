@@ -1,0 +1,6 @@
+SubScene {
+ Parent "{C8F3B079DCF6CC1A}worlds/SpawnedEveron.ent"
+}
+Layer default {
+ Index 0
+}
